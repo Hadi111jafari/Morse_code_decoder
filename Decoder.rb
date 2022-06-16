@@ -1,4 +1,4 @@
-@morse_dict = {
+@morseDict = {
   '.-' => 'A',
   '-...' => 'B',
   '-.-.' => 'C',
@@ -29,7 +29,7 @@
 }
 
 def decode_char(char)
-  @morse_dict[char]
+  @morseDict[char]
 end
 puts decode_char '.-'
 
